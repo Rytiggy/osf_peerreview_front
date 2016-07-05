@@ -4,7 +4,7 @@ export default Ember.Route.extend({
 	store: Ember.inject.service(),
 	session: Ember.inject.service(),
   model() {
-     return this.store.findAll('conference');
+    //  return this.store.findAll('conference');
   },
   activate: function() {
     Ember.$('body').addClass('hide-scroll');
