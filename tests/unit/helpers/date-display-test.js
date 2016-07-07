@@ -1,4 +1,4 @@
-import { dateDisplay } from 'osf-meetings/helpers/date-display';
+import { dateDisplay } from 'osf-peerreview/helpers/date-display';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | date display');

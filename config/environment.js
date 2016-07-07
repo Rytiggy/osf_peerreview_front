@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'osf-meetings',
+    modulePrefix: 'osf-peerreview',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

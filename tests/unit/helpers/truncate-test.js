@@ -1,4 +1,4 @@
-import { truncate } from 'osf-meetings/helpers/truncate';
+import { truncate } from 'osf-peerreview/helpers/truncate';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | truncate');

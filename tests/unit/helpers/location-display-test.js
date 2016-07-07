@@ -1,4 +1,4 @@
-import { locationDisplay } from 'osf-meetings/helpers/location-display';
+import { locationDisplay } from 'osf-peerreview/helpers/location-display';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | location display');

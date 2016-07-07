@@ -1,4 +1,4 @@
-import { submissionCount } from 'osf-meetings/helpers/submission-count';
+import { submissionCount } from 'osf-peerreview/helpers/submission-count';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | submission count');

@@ -1,7 +1,7 @@
 {
-  "name": "osf-meetings",
+  "name": "osf-peerreview",
   "version": "0.0.0",
-  "description": "Small description for osf-meetings goes here",
+  "description": "Small description for osf-peerreview goes here",
   "private": true,
   "directories": {
     "doc": "doc",

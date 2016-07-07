@@ -1,4 +1,4 @@
-import { hasSubmissions } from 'osf-meetings/helpers/has-submissions';
+import { hasSubmissions } from 'osf-peerreview/helpers/has-submissions';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | has submissions');
