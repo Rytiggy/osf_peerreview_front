@@ -6,7 +6,7 @@ import datetime
 
 
 class Reviewer(models.Model):
-    user = models.OneToOneField(User,default=None)
+    user = models.OneToOneField(User,default=None,on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
     affiliation = models.TextField(null=True)
     email = models.EmailField(default=None)
@@ -48,4 +48,3 @@ class submissionevals(models.Model):
     @property
     def total(self):
         return self.premise + self.research + self.style
-
