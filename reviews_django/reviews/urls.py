@@ -1,12 +1,10 @@
+from django.contrib import admin
 from django.conf.urls import include, url
 
 from django.contrib.staticfiles.urls import static
 from django.conf import settings
 
-
-
-admin.autodiscover()
-
+from peerreviews.views import AuthenticateUser
 urlpatterns = [
 
     url(r'', include('peerreviews.urls')),
